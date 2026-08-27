@@ -1,0 +1,36 @@
+{
+  candidateName: 'Arjun Sharma',
+  jobTitle: 'Software Developer',
+  overallRating: 9.2,
+  experienceMatch: 'Excellent',
+  technicalEvaluation: [
+    'Frontend development with React.js, Redux Toolkit, and Tailwind CSS',
+    'Backend development using Node.js, Express.js, and REST APIs',
+    'Database design with MongoDB, MySQL, and caching using Redis',
+    'Deployment practices including Docker, Kubernetes, and AWS cloud basics',
+    'Strong foundation in DSA, having solved over 500+ problems on coding platforms'
+  ],
+  experienceReview: 'Arjun brings over 2 years of practical experience, including full-stack web development at TechNova Solutions and a solid internship at CodeCraft Technologies. He has demonstrated hands-on capability in optimizing API performance, setting up secure authentication layers, and leveraging modern cloud tools. This lines up cleanly with our 1-3 year experience requirements.',
+  projectHighlights: [
+    'MERN Stack Food Ordering Platform featuring secure JWT auth, email verification, and central state management.',
+    'Real-Time Chat Application featuring instant messaging using Socket.IO web sockets.',
+    "AI-Powered Notes Application integrated with OpenAI's API for intelligent summarization and notes organization."
+  ],
+  candidateStrengths: [
+    'Highly relevant technical stack that directly matches our job description requirements.',
+    'Proven experience with security mechanisms like JWT, refresh tokens, and HTTP-only cookies.',
+    'Strong problem-solving foundation with active DSA practice.',
+    'Familiarity with DevOps tools like Docker and AWS which are highly desired for our scalable services.'
+  ],
+  areasForImprovement: [
+    'Relative junior tenure with limited production exposure to heavy system design challenges.',
+    'Opportunities to deepen knowledge in automated testing frameworks, which was not explicitly highlighted in the resume.'
+  ],
+  jobDescriptionFit: 'Highly suitable. Arjun lives in Bengaluru (removing any relocation friction), fits the hybrid work expectation, and possesses nearly all of our required and preferred technical skills.',
+  recommendedInterviewQuestions: [
+    'Explain how you optimized the API response times by 25% at TechNova Solutions. What profiling tools and indexing strategies did you employ?',
+    'Describe your implementation of refresh tokens and HTTP-only cookies for secure authentication. How does this prevent CSRF and XSS attacks?',
+    'How would you handle horizontal scaling for your Real-Time Chat Application built with Socket.IO? What role would Redis play in that scenario?'
+  ],
+  hiringDecision: 'Strongly Recommend for Technical Rounds'
+}
