@@ -2,9 +2,10 @@ import {createBrowserRouter} from "react-router-dom";
 import Login from "./features/auth/pages/Login.jsx";
 import Register from "./features/auth/pages/Register.jsx"
 import Home from "./features/interview/pages/Home.jsx";
-import Protected from "./features/auth/components/Protected.jsx"
+//import Protected from "./features/auth/components/Protected.jsx"
 import PublicRoute from "./features/auth/components/PublicRoute.jsx";
-import JobApplication from "./features/interview/pages/jobApplication.jsx";
+
+import Interview from "./features/interview/pages/Interview.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -18,7 +19,7 @@ export const router = createBrowserRouter([
         //element:<Protected><Home/></Protected>
         element:<Home/>
     },{
-        path:"/jobapp",
-        element:<JobApplication/>
+        path:"/interview",
+        element:<Interview/>
     }
 ])
