@@ -92,7 +92,8 @@ I enjoy solving complex programming problems and continuously improving my knowl
 
 I consider myself a quick learner, a good team player, and someone who enjoys taking ownership of tasks. I am comfortable working independently as well as collaborating with cross-functional teams. I focus on writing clean, maintainable code and understanding the business requirement before implementing a solution.
 
-My goal is to work in a challenging software development environment where I can contribute to real-world products, learn from experienced developers, and continuously grow as a software engineer.`
+My goal is to work in a challenging software development environment where I can
+ contribute to real-world products, learn from experienced developers, and continuously grow as a software engineer.`
 
 
 const jobDescription = `Software Developer
