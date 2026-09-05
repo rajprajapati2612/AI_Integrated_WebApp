@@ -86,7 +86,12 @@ async function loginUserController(req,res){
 
     const token = jwt.sign({id:user._id,username:user.username},process.env.JWT_SECRET,{expiresIn:"1d"});
 
-    res.cookie("token",token);
+   res.cookie("token", token, {
+    httpOnly: true,
+    maxAge: 24 * 60 * 60 * 1000,
+    sameSite: "None",
+    secure: true
+});
 
     return res.status(200).json({
        success:true,
