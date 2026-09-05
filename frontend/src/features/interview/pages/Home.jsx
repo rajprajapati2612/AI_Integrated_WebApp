@@ -3,6 +3,8 @@ import "../style/home.scss"
 import { useInterview } from '../hooks/useInterview.js'
 import { useNavigate } from 'react-router'
 import { useEffect } from 'react'
+import { useAuth } from '../../auth/hooks/useAuth.jsx'
+
 
 const Home = () => {
     
@@ -11,6 +13,7 @@ const Home = () => {
      const [ jobDescription, setJobDescription ] = useState("")
      const [ selfDescription, setSelfDescription ] = useState("")
      const resumeInputRef = useRef()
+    const {user} = useAuth();
 
     const navigate = useNavigate()
 
@@ -158,5 +161,16 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+
+
+
+
+
+
+
+
 
 
